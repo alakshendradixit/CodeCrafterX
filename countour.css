@@ -1,0 +1,21 @@
+#countour  {
+    padding: 2rem 1rem;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+#contour h2 {
+    color: #555;
+    font-size: 2rem;
+}
+
+#countour p {
+    font-size: 1.5rem;
+    color: #777;
+}
+
+#countour #counter {
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: bold;
+}

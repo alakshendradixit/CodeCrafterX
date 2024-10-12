@@ -1,0 +1,27 @@
+#quizzes {
+    padding: 2 rem 1rem;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+#quizzes h2 {
+    color: #222;
+    font-size: 2rem;
+}
+
+#quizzes p{
+    font-size: 1.2rem;
+    color: #444;
+}
+
+#quizzes .btn{
+    background-color: #007bff;
+    color: brown;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#quizzes .btn:hover {
+    background-color: #0056b3;
+}

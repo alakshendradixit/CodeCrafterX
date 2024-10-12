@@ -1,0 +1,51 @@
+/* Basic styles for the navigation */
+nav {
+    background-color: #333;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: none;
+    /* Hide menu initially */
+    text-align: center;
+}
+
+nav ul li {
+    margin: 1rem 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    /* Center the button */
+}
+
+/* Show menu when the 'show' class is added */
+nav ul.show {
+    display: block;
+}
+
+/* Always show the menu and hide the button on wider screens */
+@media (min-width: 600px) {
+    nav ul {
+        display: block;
+        /* Show menu on desktop */
+    }
+
+    button {
+        display: none;
+        /* Hide button on desktop */
+    }
+}
