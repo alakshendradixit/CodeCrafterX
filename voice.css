@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blueviolet;
+    margin: 2px;
+    padding: 2px;
+    text-align: center;
+}
+
+h1{
+    color: brown;
+}
+
+.login-button{
+    padding: 10px 20px;
+    background: local;
+    background-color: aqua;
+    color: beige;
+    cursor: default;
+    border: 2px;
+}
+
+.login-form {
+    display: none;
+    margin-top: auto;
+}
+
+.login-form button{
+    display: inline;
+    padding: 10px 15px;
+    background: color #28a745;
+    color:whitesmoke ;
+    border: none;
+    cursor: pointer;
+}
+
