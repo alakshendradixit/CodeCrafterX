@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+
+        <title>Logo  Rotator</title>
+        <style>
+           #logo-container img {
+              width: 2000px; 
+              height: auto;
+              display: block;
+              margin: auto;
+           }
+        </style>
+    </head>
+
+    <body>
+        <div id="logo-container">
+            <img id="logo" src="logo1.png" alt="Logo">
+        </div>
+
+        <script>
+            const logos = [
+            'logo1.png',
+            'logo2.png',
+            'logo3.png',
+            'logo4.png',
+            'logo5.png',
+            'logo6.png',
+            'logo7.png',
+            'logo8.png',
+            'logo9.png'
+            ];
+
+            let currentLogoIndex = 0;
+
+            //function to change the logo every 3 hrs
+            function changeLogo() {
+                currentLogoIndex =  (currentLogoIndex+1) %logos.length;
+
+                document.getElementById('logo').src=logos[currentLogoIndex];
+            }
+
+            //initially call the function and then set the interval 
+            setInterval(changeLogo,1080000); //3 hrs =1080000 miliseconds
+
+        </script>
+    </body>
+</html>
